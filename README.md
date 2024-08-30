@@ -5,7 +5,7 @@ Accurately predicting epitope and HLA binding remains a critical and challenging
 NeoBERT is an advanced model designed specifically for predicting the binding affinity between neoantigens and HLA. It is a variant of the original BERT model, enhanced to integrate biological features with deep learning techniques. Unlike traditional tools, NeoBERT considers both canonical and noncanonical neoantigens, offering unique insights into the binding capabilities of these diverse antigens.
 
 
-## Installation-安装
+## Installation
 
 ### Install NeoBert in the virtual environment by conda.(Recommended)
 #### Step 1: install conda: https://docs.anaconda.com/anaconda/install/index.html, and then create a envs named NeoBert with python 3.8
@@ -33,9 +33,20 @@ git clone https://huggingface.co/google-bert/bert-base-uncased
 GIT_LFS_SKIP_SMUDGE=1 git clone https://huggingface.co/google-bert/bert-base-uncased
 ```
 
-## Usage-用法
+## Usage
+### Step 1. Data Preprocessing
 
-*------ 备注：项目的入门使用方法 ，最好包括界面操作截图及视频*
+### Step 2. Train
+
+### Step 3. Predict
+
+### Step 4. Eval
+
 
 ## References
+* Bert: https://huggingface.co/google-bert/bert-base-uncased
+* Transformers: https://github.com/huggingface/transformers
 
+
+## Citation
+NeoAtlas and NeoBert: A Database and A Predictive Model for Canonical and Noncanonical Tumor Neoantigens.2024. (submitted).
