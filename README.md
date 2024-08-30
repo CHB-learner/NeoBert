@@ -23,7 +23,15 @@ cd NeoBert
 pip install -r requirements.txt
 ```
 
+#### Step 3: download the BERT base model:
 
+```
+# Make sure you have git-lfs installed (https://git-lfs.com)
+git lfs install
+git clone https://huggingface.co/google-bert/bert-base-uncased
+# If you want to clone without large files - just their pointers
+GIT_LFS_SKIP_SMUDGE=1 git clone https://huggingface.co/google-bert/bert-base-uncased
+```
 
 ## Usage-用法
 
